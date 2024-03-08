@@ -40,4 +40,10 @@ jobs:
     - name: Push changes
       run: |
         git push
+    - name: Push changes
+      env:
+        GH_TOKEN: ${{ secrets.BAEKJOONHUBACTIONTOKEN }}  # Personal Access Token을 Secrets에서 가져옴
+      run: |
+        git push https://github.com/NaMinhyeok/CodingTest-Java.git HEAD:main
+
 
