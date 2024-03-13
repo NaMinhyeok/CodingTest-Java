@@ -10,6 +10,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |1026. 보물|[링크](./%EB%B0%B1%EC%A4%80/Silver/1026.%E2%80%85%EB%B3%B4%EB%AC%BC/README.md)|
+|10815. 숫자 카드|[링크](./%EB%B0%B1%EC%A4%80/Silver/10815.%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%B9%B4%EB%93%9C/%EC%88%AB%EC%9E%90%E2%80%85%EC%B9%B4%EB%93%9C.java)|
 |13706. 제곱근|[링크](./%EB%B0%B1%EC%A4%80/Silver/13706.%E2%80%85%EC%A0%9C%EA%B3%B1%EA%B7%BC/README.md)|
 |9655. 돌 게임|[링크](./%EB%B0%B1%EC%A4%80/Silver/9655.%E2%80%85%EB%8F%8C%E2%80%85%EA%B2%8C%EC%9E%84/README.md)|
 ## 📚 프로그래머스
