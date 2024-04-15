@@ -7,6 +7,10 @@
 |25305. 커트라인|[링크](./%EB%B0%B1%EC%A4%80/Bronze/25305.%E2%80%85%EC%BB%A4%ED%8A%B8%EB%9D%BC%EC%9D%B8/%EC%BB%A4%ED%8A%B8%EB%9D%BC%EC%9D%B8.java)|
 |2747. 피보나치 수|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2747.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%EC%88%98/README.md)|
 |2750. 수 정렬하기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2750.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/README.md)|
+### 🚀 Gold
+| 문제번호 | 링크 |
+| ----- | ----- |
+|1916. 최소비용 구하기|[링크](./%EB%B0%B1%EC%A4%80/Gold/1916.%E2%80%85%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.java)|
 ### 🚀 Platinum
 | 문제번호 | 링크 |
 | ----- | ----- |
