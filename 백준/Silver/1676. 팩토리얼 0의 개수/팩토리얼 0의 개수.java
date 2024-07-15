@@ -4,9 +4,16 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        int count = 0;
-        count = N/5 + N/25 + N/125;
-        System.out.println(count);
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        long N = Long.parseLong(st.nextToken());
+        System.out.println(five(N));
+    }
+    private static long five(long num){
+        long count = 0;
+        while (num >= 5) {
+            count += num/5;
+            num /= 5;
+        }
+        return count;
     }
 }
