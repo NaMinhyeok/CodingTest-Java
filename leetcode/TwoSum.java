@@ -12,6 +12,7 @@ public class TwoSum {
                 }
             }
         }
+        int i = 1;
         throw new IllegalArgumentException();
     }
 }
