@@ -9,7 +9,14 @@ public class Solution {
 
     // 이 부분을 변경해서 실행해보세요.
     private static boolean solution(int[] arr, int target) {
-
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            if (set.contains(target - num)) {
+                return true;
+            }
+            set.add(num);
+        }
+        return false;
     }
 
 }
