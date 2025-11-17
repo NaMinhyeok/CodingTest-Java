@@ -1,39 +1,39 @@
-import java.util.Arrays;
-import java.util.ArrayList;
+import java.util.*;
 
 class Solution {
-    public int[] solution(int[] answers) {
-        int[] answer1 = {1,2,3,4,5};
-        int[] answer2 = {2,1,2,3,2,4,2,5};
-        int[] answer3 = {3,3,1,1,2,2,4,4,5,5};
-        int[] score = new int[3];
-        ArrayList<Integer> list = new ArrayList<>();
-        int[] answer = {};
-        for(int i=0; i<answers.length; i++){
-            if(answer1[i%5]==answers[i]){
-                score[0]++;
+    public List<Integer> solution(int[] answers) {
+        int[][] arr = {
+            {1, 2, 3, 4, 5},
+            {2, 1, 2, 3, 2, 4, 2, 5},
+            {3, 3, 1, 1, 2, 2, 4, 4, 5, 5}
+        };
+        int idx = 0;
+        int count1 = 0;
+        int count2 = 0;
+        int count3 = 0;
+        for(int answer: answers) {
+            if(arr[0][idx%5] == answer) {
+                count1++;
             }
-            if(answer2[i%8]==answers[i]){
-                score[1]++;
+            if(arr[1][idx%8] == answer) {
+                count2++;
             }
-            if(answer3[i%10]==answers[i]){
-                score[2]++;
+            if(arr[2][idx%10] == answer) {
+                count3++;
             }
+            idx++;
         }
-        int[] temp = new int[score.length];
-        for(int i=0; i<score.length; i++){
-            temp[i] = score[i];
+        int max = Math.max(count1, Math.max(count2,count3));
+        List<Integer> list = new ArrayList<>();
+        if(max == count1) {
+            list.add(1);
         }
-        Arrays.sort(temp);
-        for(int i=0; i<score.length; i++){
-            if(score[i] == temp[score.length-1]){
-                list.add(i+1);
-            }
+        if(max == count2) {
+            list.add(2);
         }
-        answer = new int[list.size()];
-        for(int i=0; i<list.size(); i++){
-            answer[i] = list.get(i);
+        if(max == count3) {
+            list.add(3);
         }
-        return answer;
+        return list;
     }
 }
