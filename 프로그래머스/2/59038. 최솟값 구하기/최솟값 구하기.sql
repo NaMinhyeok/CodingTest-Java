@@ -1,2 +1,5 @@
 -- 코드를 입력하세요
-SELECT min(DATETIME) as 시간 from animal_ins;
+select DATETIME as "시간"
+from ANIMAL_INS
+order by DATETIME
+limit 1;
